@@ -4,7 +4,7 @@
 #define V0 3
 #define V1 3
 #define V2 -10000
-#define V3 2.99999999999999999999999999999999999999999999999999999999
+#define V3 3
 
 int main(void) {
     int a;
