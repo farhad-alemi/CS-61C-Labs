@@ -1,4 +1,4 @@
-1. run arglist
+1. run args
 2. b
 3. n
 4. s
