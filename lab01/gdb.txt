@@ -1,4 +1,4 @@
-1. run args
+1. set args
 2. b
 3. n
 4. s
