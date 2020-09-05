@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Only change any of these 4 values */
-#define V0 2.000000001
+#define V0 2
 #define V1 3
 #define V2 -10000
 #define V3 2.99999999999999999999999999999999999999999999999999999999
