@@ -1,5 +1,5 @@
-1. $(BINARIES)
-2. $<
+1. makefile.bak
+2. <
 3. gcc
 4. c99
 5. $(FOO)
