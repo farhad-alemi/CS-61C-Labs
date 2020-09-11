@@ -1,5 +1,5 @@
 1. make clean
-2. make
+2. make -B
 3. gcc
 4. c99
 5. $(FOO)
