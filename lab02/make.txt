@@ -1,5 +1,5 @@
-1. makefile.bak
-2. <
+1. make clean
+2. make
 3. gcc
 4. c99
 5. $(FOO)
