@@ -1,0 +1,3 @@
+C:/Users/AbdM/cs61c/labs/lab02/cmake-build-debug/CMakeFiles/lab02.dir
+C:/Users/AbdM/cs61c/labs/lab02/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/AbdM/cs61c/labs/lab02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
