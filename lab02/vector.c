@@ -38,7 +38,7 @@ vector_t *bad_vector_new() {
 /* Another suboptimal way of creating a vector */
 vector_t also_bad_vector_new() {
     /* Create the vector */
-    vector_t v;                     //!returning local variable - to be garbage-collected
+    vector_t v;                     // !returning local variable - to be garbage-collected
 
     /* Initialize attributes */
     v.size = 1;

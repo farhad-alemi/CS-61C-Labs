@@ -21,4 +21,22 @@ main:
     ecall # Exit
 
 factorial:
-    # YOUR CODE HERE
+	beq x0, a0, base_case		#n == 0
+    
+    addi t0 x0, 1				#initialize result = 1
+    loop:
+    beq x0, a0, end_loop		#n == 0
+    mul t0, t0, a0				#result = result * a0
+    addi a0, a0, -1				# a0--
+    j loop
+    
+    end_loop:
+    add a0 x0, t0				#preparing return val
+    j exit
+    
+    base_case:
+    addi a0, x0, 1
+    
+    exit:
+    jr ra
+    
