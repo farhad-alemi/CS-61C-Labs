@@ -1,12 +1,12 @@
-#Store subsequent items in the static segment at the
-#next available address.
+# Store subsequent items in the static segment at the
+# next available address.
 .data
-#Store listed values as unaligned 32-bit words; i.e. an array
+# Store listed values as unaligned 32-bit words; i.e. an array
 .word 2, 4, 6, 8
 n: .word 9
 
-#Store subsequent instructions in the text segment
-#at the next available address.
+# Store subsequent instructions in the text segment
+# at the next available address.
 .text
 main:
     add t0, x0, x0

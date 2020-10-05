@@ -96,32 +96,36 @@ naive_pow_end:
 # address as argument and increments the 32-bit value stored there.
 inc_arr:
     # BEGIN PROLOGUE
-    #
-    #
-    #
     addi sp, sp, -12
     sw ra, 0(sp)
     sw s0, 4(sp)
     sw s1, 8(sp)
     # END PROLOGUE
+    
     mv s0, a0 # Copy start of array to saved register
     mv s1, a1 # Copy length of array to saved register
-    li t0, 0 # Initialize counter to 0
+    li t0, 0  # Initialize counter to 0
 inc_arr_loop:
     beq t0, s1, inc_arr_end
     slli t1, t0, 2 # Convert array index to byte offset
     add a0, s0, t1 # Add offset to start of array
     # Prepare to call helper_fn
     #
-    # FIXME Add code to preserve the value in t0 before we call helper_fn
+    # Add code to preserve the value in t0 before we call helper_fn
     # Hint: What does the "t" in "t0" stand for?
     # Also ask yourself this: why don't we need to preserve t1?
-    #
+    addi sp, sp, -4
+   	sw t0, 0(sp)
+    
     jal helper_fn
     # Finished call for helper_fn
+    
+    lw t0, 0(sp)
+    addi sp, sp, 4
     addi t0, t0, 1 # Increment counter
     j inc_arr_loop
 inc_arr_end:
+
     # BEGIN EPILOGUE
     lw ra, 0(sp)
     lw s0, 4(sp)
