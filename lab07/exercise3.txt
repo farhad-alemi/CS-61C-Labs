@@ -1,20 +1,20 @@
 --- not autograded ---
 
 Part 1
-    blocksize = 20, n = 100: 
-    blocksize = 20, n = 1000: 
-    blocksize = 20, n = 2000: 
-    blocksize = 20, n = 5000: 
-    blocksize = 20, n = 10000: 
+    blocksize = 20, n = 100: 0.005 0.012
+    blocksize = 20, n = 1000: 2.498 1.899
+    blocksize = 20, n = 2000: 28.264 7.043
+    blocksize = 20, n = 5000: 237.393 54.626
+    blocksize = 20, n = 10000: 1068.9 193.254
 
-    Checkoff Question 1:
+    Checkoff Question 1: ~ n=780
     Checkoff Question 2:
 
 Part 2
-    blocksize = 50, n = 10000:
-    blocksize = 100, n = 10000:
-    blocksize = 500, n = 10000:
-    blocksize = 1000, n = 10000:
-    blocksize = 5000, n = 10000:
+    blocksize = 50, n = 10000: 1071.58 193.307
+    blocksize = 100, n = 10000: 1062.01 192.583
+    blocksize = 500, n = 10000: 1059.66 159.63
+    blocksize = 1000, n = 10000: 1062.37 249.731
+    blocksize = 5000, n = 10000: 1072.76 1040.54
 
-    Checkoff Question 3:
+    Checkoff Question 3:+=-; miss penalty increases with blocksize

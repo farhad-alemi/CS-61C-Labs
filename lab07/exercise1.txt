@@ -1,19 +1,19 @@
 Scenario 1
-    1.
-    2.
-    3.
+    1. cache size, step size
+    2. 0.0
+    3. block size, 128
 
 Scenario 2
-    1.
-    2.
-    3.
+    1. 2
+    2. MHHH
+    3. 1.0
 
 Scenario 3
-    1.
-    2.
-    3.
-    4.
-    5.
+    1. L1 0.50, L2 0.00, Overall 0.50
+    2. 32 of L1 accesses, 16 of L1 misses
+    3. 16 of L2 accesses
+    4. block size
+    5. =, =, +, =
 
 --- lines below are ignored by the AG ---
 
