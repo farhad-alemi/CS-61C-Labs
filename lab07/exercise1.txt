@@ -1,7 +1,7 @@
 Scenario 1
     1. cache size, step size
     2. 0.0
-    3. blocksize, 128
+    3. step size, 1
 
 Scenario 2
     1. 2
@@ -9,10 +9,10 @@ Scenario 2
     3. 1.0
 
 Scenario 3
-    1. 0.50, 0.00, 0.50
+    1. 0.50, 0.00, 0.33
     2. 32, 16
     3. 16
-    4. blocksize
+    4. rep count
     5. =, =, +, =
 
 --- lines below are ignored by the AG ---
