@@ -35,8 +35,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/AbdM/cs61c/labs/lab10/."/>
-					<Add directory="C:/Users/AbdM/cs61c/labs/lab10/libbmp"/>
-					<Add directory="C:/Users/AbdM/cs61c/labs/lab10/libhttp"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
@@ -56,8 +54,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/AbdM/cs61c/labs/lab10/."/>
-					<Add directory="C:/Users/AbdM/cs61c/labs/lab10/libbmp"/>
-					<Add directory="C:/Users/AbdM/cs61c/labs/lab10/libhttp"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
@@ -80,30 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/dotp.c">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/hello.c">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/libbmp/libbmp.c">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/libbmp/libbmp.h">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/libhttp/libhttp.c">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/libhttp/libhttp.h">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/omp_apps.c">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/omp_apps.h">
-			<Option target="lab10"/>
-		</Unit>
 		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/server.c">
 			<Option target="lab10"/>
 		</Unit>
@@ -111,9 +83,6 @@
 			<Option target="lab10"/>
 		</Unit>
 		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/server_utils.h">
-			<Option target="lab10"/>
-		</Unit>
-		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/v_add.c">
 			<Option target="lab10"/>
 		</Unit>
 		<Unit filename="C:/Users/AbdM/cs61c/labs/lab10/CMakeLists.txt">

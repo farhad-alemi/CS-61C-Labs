@@ -142,141 +142,6 @@ lab10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/build
 .PHONY : lab10/fast
 
-dotp.obj: dotp.c.obj
-
-.PHONY : dotp.obj
-
-# target to build an object file
-dotp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/dotp.c.obj
-.PHONY : dotp.c.obj
-
-dotp.i: dotp.c.i
-
-.PHONY : dotp.i
-
-# target to preprocess a source file
-dotp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/dotp.c.i
-.PHONY : dotp.c.i
-
-dotp.s: dotp.c.s
-
-.PHONY : dotp.s
-
-# target to generate assembly for a file
-dotp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/dotp.c.s
-.PHONY : dotp.c.s
-
-hello.obj: hello.c.obj
-
-.PHONY : hello.obj
-
-# target to build an object file
-hello.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/hello.c.obj
-.PHONY : hello.c.obj
-
-hello.i: hello.c.i
-
-.PHONY : hello.i
-
-# target to preprocess a source file
-hello.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/hello.c.i
-.PHONY : hello.c.i
-
-hello.s: hello.c.s
-
-.PHONY : hello.s
-
-# target to generate assembly for a file
-hello.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/hello.c.s
-.PHONY : hello.c.s
-
-libbmp/libbmp.obj: libbmp/libbmp.c.obj
-
-.PHONY : libbmp/libbmp.obj
-
-# target to build an object file
-libbmp/libbmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/libbmp/libbmp.c.obj
-.PHONY : libbmp/libbmp.c.obj
-
-libbmp/libbmp.i: libbmp/libbmp.c.i
-
-.PHONY : libbmp/libbmp.i
-
-# target to preprocess a source file
-libbmp/libbmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/libbmp/libbmp.c.i
-.PHONY : libbmp/libbmp.c.i
-
-libbmp/libbmp.s: libbmp/libbmp.c.s
-
-.PHONY : libbmp/libbmp.s
-
-# target to generate assembly for a file
-libbmp/libbmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/libbmp/libbmp.c.s
-.PHONY : libbmp/libbmp.c.s
-
-libhttp/libhttp.obj: libhttp/libhttp.c.obj
-
-.PHONY : libhttp/libhttp.obj
-
-# target to build an object file
-libhttp/libhttp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/libhttp/libhttp.c.obj
-.PHONY : libhttp/libhttp.c.obj
-
-libhttp/libhttp.i: libhttp/libhttp.c.i
-
-.PHONY : libhttp/libhttp.i
-
-# target to preprocess a source file
-libhttp/libhttp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/libhttp/libhttp.c.i
-.PHONY : libhttp/libhttp.c.i
-
-libhttp/libhttp.s: libhttp/libhttp.c.s
-
-.PHONY : libhttp/libhttp.s
-
-# target to generate assembly for a file
-libhttp/libhttp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/libhttp/libhttp.c.s
-.PHONY : libhttp/libhttp.c.s
-
-omp_apps.obj: omp_apps.c.obj
-
-.PHONY : omp_apps.obj
-
-# target to build an object file
-omp_apps.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/omp_apps.c.obj
-.PHONY : omp_apps.c.obj
-
-omp_apps.i: omp_apps.c.i
-
-.PHONY : omp_apps.i
-
-# target to preprocess a source file
-omp_apps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/omp_apps.c.i
-.PHONY : omp_apps.c.i
-
-omp_apps.s: omp_apps.c.s
-
-.PHONY : omp_apps.s
-
-# target to generate assembly for a file
-omp_apps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/omp_apps.c.s
-.PHONY : omp_apps.c.s
-
 server.obj: server.c.obj
 
 .PHONY : server.obj
@@ -331,33 +196,6 @@ server_utils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/server_utils.c.s
 .PHONY : server_utils.c.s
 
-v_add.obj: v_add.c.obj
-
-.PHONY : v_add.obj
-
-# target to build an object file
-v_add.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/v_add.c.obj
-.PHONY : v_add.c.obj
-
-v_add.i: v_add.c.i
-
-.PHONY : v_add.i
-
-# target to preprocess a source file
-v_add.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/v_add.c.i
-.PHONY : v_add.c.i
-
-v_add.s: v_add.c.s
-
-.PHONY : v_add.s
-
-# target to generate assembly for a file
-v_add.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10.dir\build.make CMakeFiles/lab10.dir/v_add.c.s
-.PHONY : v_add.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -367,30 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab10
-	@echo ... dotp.obj
-	@echo ... dotp.i
-	@echo ... dotp.s
-	@echo ... hello.obj
-	@echo ... hello.i
-	@echo ... hello.s
-	@echo ... libbmp/libbmp.obj
-	@echo ... libbmp/libbmp.i
-	@echo ... libbmp/libbmp.s
-	@echo ... libhttp/libhttp.obj
-	@echo ... libhttp/libhttp.i
-	@echo ... libhttp/libhttp.s
-	@echo ... omp_apps.obj
-	@echo ... omp_apps.i
-	@echo ... omp_apps.s
 	@echo ... server.obj
 	@echo ... server.i
 	@echo ... server.s
 	@echo ... server_utils.obj
 	@echo ... server_utils.i
 	@echo ... server_utils.s
-	@echo ... v_add.obj
-	@echo ... v_add.i
-	@echo ... v_add.s
 .PHONY : help
 
 

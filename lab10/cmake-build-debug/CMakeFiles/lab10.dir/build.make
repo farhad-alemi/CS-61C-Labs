@@ -76,80 +76,10 @@ include CMakeFiles/lab10.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab10.dir/flags.make
 
-CMakeFiles/lab10.dir/libbmp/libbmp.c.obj: CMakeFiles/lab10.dir/flags.make
-CMakeFiles/lab10.dir/libbmp/libbmp.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
-CMakeFiles/lab10.dir/libbmp/libbmp.c.obj: ../libbmp/libbmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab10.dir/libbmp/libbmp.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\libbmp\libbmp.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\libbmp\libbmp.c
-
-CMakeFiles/lab10.dir/libbmp/libbmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab10.dir/libbmp/libbmp.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\AbdM\cs61c\labs\lab10\libbmp\libbmp.c > CMakeFiles\lab10.dir\libbmp\libbmp.c.i
-
-CMakeFiles/lab10.dir/libbmp/libbmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/libbmp/libbmp.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\libbmp\libbmp.c -o CMakeFiles\lab10.dir\libbmp\libbmp.c.s
-
-CMakeFiles/lab10.dir/libhttp/libhttp.c.obj: CMakeFiles/lab10.dir/flags.make
-CMakeFiles/lab10.dir/libhttp/libhttp.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
-CMakeFiles/lab10.dir/libhttp/libhttp.c.obj: ../libhttp/libhttp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab10.dir/libhttp/libhttp.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\libhttp\libhttp.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\libhttp\libhttp.c
-
-CMakeFiles/lab10.dir/libhttp/libhttp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab10.dir/libhttp/libhttp.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\AbdM\cs61c\labs\lab10\libhttp\libhttp.c > CMakeFiles\lab10.dir\libhttp\libhttp.c.i
-
-CMakeFiles/lab10.dir/libhttp/libhttp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/libhttp/libhttp.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\libhttp\libhttp.c -o CMakeFiles\lab10.dir\libhttp\libhttp.c.s
-
-CMakeFiles/lab10.dir/dotp.c.obj: CMakeFiles/lab10.dir/flags.make
-CMakeFiles/lab10.dir/dotp.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
-CMakeFiles/lab10.dir/dotp.c.obj: ../dotp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab10.dir/dotp.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\dotp.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\dotp.c
-
-CMakeFiles/lab10.dir/dotp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab10.dir/dotp.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\AbdM\cs61c\labs\lab10\dotp.c > CMakeFiles\lab10.dir\dotp.c.i
-
-CMakeFiles/lab10.dir/dotp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/dotp.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\dotp.c -o CMakeFiles\lab10.dir\dotp.c.s
-
-CMakeFiles/lab10.dir/hello.c.obj: CMakeFiles/lab10.dir/flags.make
-CMakeFiles/lab10.dir/hello.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
-CMakeFiles/lab10.dir/hello.c.obj: ../hello.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab10.dir/hello.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\hello.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\hello.c
-
-CMakeFiles/lab10.dir/hello.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab10.dir/hello.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\AbdM\cs61c\labs\lab10\hello.c > CMakeFiles\lab10.dir\hello.c.i
-
-CMakeFiles/lab10.dir/hello.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/hello.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\hello.c -o CMakeFiles\lab10.dir\hello.c.s
-
-CMakeFiles/lab10.dir/omp_apps.c.obj: CMakeFiles/lab10.dir/flags.make
-CMakeFiles/lab10.dir/omp_apps.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
-CMakeFiles/lab10.dir/omp_apps.c.obj: ../omp_apps.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lab10.dir/omp_apps.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\omp_apps.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\omp_apps.c
-
-CMakeFiles/lab10.dir/omp_apps.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab10.dir/omp_apps.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\AbdM\cs61c\labs\lab10\omp_apps.c > CMakeFiles\lab10.dir\omp_apps.c.i
-
-CMakeFiles/lab10.dir/omp_apps.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/omp_apps.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\omp_apps.c -o CMakeFiles\lab10.dir\omp_apps.c.s
-
 CMakeFiles/lab10.dir/server.c.obj: CMakeFiles/lab10.dir/flags.make
 CMakeFiles/lab10.dir/server.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
 CMakeFiles/lab10.dir/server.c.obj: ../server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lab10.dir/server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab10.dir/server.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\server.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\server.c
 
 CMakeFiles/lab10.dir/server.c.i: cmake_force
@@ -163,7 +93,7 @@ CMakeFiles/lab10.dir/server.c.s: cmake_force
 CMakeFiles/lab10.dir/server_utils.c.obj: CMakeFiles/lab10.dir/flags.make
 CMakeFiles/lab10.dir/server_utils.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
 CMakeFiles/lab10.dir/server_utils.c.obj: ../server_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lab10.dir/server_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab10.dir/server_utils.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\server_utils.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\server_utils.c
 
 CMakeFiles/lab10.dir/server_utils.c.i: cmake_force
@@ -174,47 +104,21 @@ CMakeFiles/lab10.dir/server_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/server_utils.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\server_utils.c -o CMakeFiles\lab10.dir\server_utils.c.s
 
-CMakeFiles/lab10.dir/v_add.c.obj: CMakeFiles/lab10.dir/flags.make
-CMakeFiles/lab10.dir/v_add.c.obj: CMakeFiles/lab10.dir/includes_C.rsp
-CMakeFiles/lab10.dir/v_add.c.obj: ../v_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lab10.dir/v_add.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab10.dir\v_add.c.obj   -c C:\Users\AbdM\cs61c\labs\lab10\v_add.c
-
-CMakeFiles/lab10.dir/v_add.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab10.dir/v_add.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\AbdM\cs61c\labs\lab10\v_add.c > CMakeFiles\lab10.dir\v_add.c.i
-
-CMakeFiles/lab10.dir/v_add.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab10.dir/v_add.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\AbdM\cs61c\labs\lab10\v_add.c -o CMakeFiles\lab10.dir\v_add.c.s
-
 # Object files for target lab10
 lab10_OBJECTS = \
-"CMakeFiles/lab10.dir/libbmp/libbmp.c.obj" \
-"CMakeFiles/lab10.dir/libhttp/libhttp.c.obj" \
-"CMakeFiles/lab10.dir/dotp.c.obj" \
-"CMakeFiles/lab10.dir/hello.c.obj" \
-"CMakeFiles/lab10.dir/omp_apps.c.obj" \
 "CMakeFiles/lab10.dir/server.c.obj" \
-"CMakeFiles/lab10.dir/server_utils.c.obj" \
-"CMakeFiles/lab10.dir/v_add.c.obj"
+"CMakeFiles/lab10.dir/server_utils.c.obj"
 
 # External object files for target lab10
 lab10_EXTERNAL_OBJECTS =
 
-lab10.exe: CMakeFiles/lab10.dir/libbmp/libbmp.c.obj
-lab10.exe: CMakeFiles/lab10.dir/libhttp/libhttp.c.obj
-lab10.exe: CMakeFiles/lab10.dir/dotp.c.obj
-lab10.exe: CMakeFiles/lab10.dir/hello.c.obj
-lab10.exe: CMakeFiles/lab10.dir/omp_apps.c.obj
 lab10.exe: CMakeFiles/lab10.dir/server.c.obj
 lab10.exe: CMakeFiles/lab10.dir/server_utils.c.obj
-lab10.exe: CMakeFiles/lab10.dir/v_add.c.obj
 lab10.exe: CMakeFiles/lab10.dir/build.make
 lab10.exe: CMakeFiles/lab10.dir/linklibs.rsp
 lab10.exe: CMakeFiles/lab10.dir/objects1.rsp
 lab10.exe: CMakeFiles/lab10.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable lab10.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\AbdM\cs61c\labs\lab10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable lab10.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab10.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
