@@ -59,11 +59,15 @@ void v_add_optimized_chunks(double* x, double* y, double* z) {
 // Do NOT use the `for` directive here!
     #pragma omp parallel
     {
-        for (int i = omp_get_thread_num() * omp_get_num_threads() % ARRAY_SIZE; ((i - omp_get_thread_num()
-        * omp_get_num_threads() < omp_get_num_threads()) || omp_get_thread_num() == omp_get_num_threads() - 1)
+        int NUM_THREADS = omp_get_num_threads();
+        int THREAD_ID = omp_get_thread_num();
+
+        int start_index = THREAD_ID * NUM_THREADS % ARRAY_SIZE;
+        for (int i = start_index; ((i - start_index < NUM_THREADS) || THREAD_ID == NUM_THREADS - 1)
         && i < ARRAY_SIZE; i++) {
             z[i] = x[i] + y[i];
         }
+
     }
 }
 // END PART 1 EX 2
