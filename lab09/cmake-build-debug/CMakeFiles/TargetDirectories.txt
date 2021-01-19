@@ -1,3 +1,0 @@
-C:/Users/AbdM/cs61c/labs/lab09/cmake-build-debug/CMakeFiles/lab09.dir
-C:/Users/AbdM/cs61c/labs/lab09/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/AbdM/cs61c/labs/lab09/cmake-build-debug/CMakeFiles/rebuild_cache.dir
